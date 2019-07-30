@@ -1,6 +1,24 @@
 <resources>
     <string name="app_name">MuInApplication</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="spaces">
+        <item>자유게시판</item>
+        <item>신고게시판</item>
+        <item>후기게시판</item>
+        <item>질문게시판</item>
+    </string-array>
+
+    <string-array name="cities">
+        <item>서울특별시 강남구</item>
+        <item>서울특별시 강북구</item>
+        <item>서울특별시 노원구</item>
+    </string-array>
+
+    <string-array name="towns">
+        <item>공릉동</item>
+        <item>상현동</item>
+        <item>역삼동</item>
+    </string-array>
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

@@ -9,6 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".activity.JoinActivity"></activity>
+        <activity android:name=".activity.LoginActivity" />
+        <activity android:name=".activity.WriteActivity" />
+        <activity android:name=".activity.QuestionSpaceActivity" />
+        <activity android:name=".activity.ReivewSpaceActivity" />
+        <activity android:name=".activity.NoticeSpaceActivity" />
+        <activity android:name=".activity.FreeSpaceActivity" />
+        <activity android:name=".activity.CommunityActivity" />
         <activity android:name=".activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
