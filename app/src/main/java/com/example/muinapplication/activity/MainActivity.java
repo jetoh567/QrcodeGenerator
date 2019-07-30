@@ -26,7 +26,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // 버튼 설정
+        Button btnLog = findViewById(R.id.btnLog);
+        btnLog.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this, LoginActivity.class);
+                startActivity(i);
+            }
+        });
+
+        //커뮤니티 버튼 설정
         Button btnCommunity = findViewById(R.id.btnCommunity);
         btnCommunity.setOnClickListener(new View.OnClickListener() {
             @Override
